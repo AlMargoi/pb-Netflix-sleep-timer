@@ -130,7 +130,7 @@ if($shutdown -eq "y"){
 }
 Start-Sleep -Seconds (60*$minutes)
 [Clicker]::LeftClickAtPoint(500,500)
-if($shutdown -eq "Y"){
+if($shutdown -eq "y"){
     if($minutesToShutdown -eq "$null"){
         continue
     }else{
